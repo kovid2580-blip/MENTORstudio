@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: mentor-platform
+  datasource:
+    url: jdbc:h2:mem:mentorplatform;MODE=PostgreSQL;DB_CLOSE_DELAY=-1
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+    properties:
+      hibernate:
+        format_sql: true
+  h2:
+    console:
+      enabled: true
+
+server:
+  port: 8080
+
+app:
+  cors:
+    allowed-origin: http://localhost:3000
+  jwt:
+    secret: change-this-secret-key-change-this-secret-key
+    expiration-ms: 86400000

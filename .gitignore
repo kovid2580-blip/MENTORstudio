@@ -1,0 +1,18 @@
+.vscode/
+
+# Frontend
+frontend/.env.local
+frontend/.next/
+frontend/node_modules/
+frontend/frontend-run.log
+frontend/frontend-run.err.log
+frontend/tsconfig.tsbuildinfo
+
+# Backend
+backend/target/
+backend/backend-run.log
+backend/backend-run.err.log
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
