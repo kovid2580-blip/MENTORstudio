@@ -102,3 +102,5 @@ The frontend structure is ready, and the backend scaffold is written, but I coul
 3. Add WebRTC media controls and signaling handling.
 4. Move from H2 to PostgreSQL for deployment.
 5. Add deployment files for Vercel and Render or Railway.
+
+![image alt](https://github.com/kovid2580-blip/MENTORstudio/blob/bc5f757f2e0f1eb614e6f5484093a09cb17c90f1/ChatGPT%20Image%20Apr%2030%2C%202026%2C%2002_06_34%20PM.png)
