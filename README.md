@@ -1,4 +1,4 @@
-# 1-on-1 Mentor Student Platform
+# MENTORstudio
 
 This repository contains a full-stack starter for the project described in your document: a real-time mentor-student platform with authentication, sessions, chat, editor sync, and video signaling support.
 
