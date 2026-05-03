@@ -91,6 +91,13 @@ Backend defaults:
 - H2 console enabled at `/h2-console`
 - JWT secret configured in `backend/src/main/resources/application.yml`
 
+## Deployment
+
+- Backend: Render or any Docker host using `backend/Dockerfile`
+- Frontend: Vercel using `frontend`
+
+See [DEPLOYMENT.md](DEPLOYMENT.md) for the exact environment variables.
+
 ## Important Note
 
 The frontend structure is ready, and the backend scaffold is written, but I could not run Maven validation in this environment because `mvn` is not installed here. The backend may need a quick compile pass once Maven or a wrapper is available.
